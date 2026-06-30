@@ -12,7 +12,15 @@
 
 
 //Anonymns function
-let say1=function(){
-    console.log("From Anonymns function")
+//let say1=function(){
+    //console.log("From Anonymns function")
+//}
+//say1()
+
+//Arrow Function
+
+const square=(x)=>{
+    return x * x
 }
-say1()
+const result=square(5)
+console.log(result)
