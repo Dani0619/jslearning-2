@@ -19,8 +19,19 @@
 
 //Arrow Function
 
-const square=(x)=>{
-    return x * x
+//const square=(x)=>{
+//    return x * x
+//}
+//const result=square(5)
+//console.log(result)
+
+//Arrow with object
+
+let person={
+    fn:'Dani',
+    ln:'A',
+    full:()=>{
+        return person.fn + ' ' + person.ln
+    }
 }
-const result=square(5)
-console.log(result)
+console.log(person.full())
