@@ -27,11 +27,14 @@
 
 //Arrow with object
 
-let person={
-    fn:'Dani',
-    ln:'A',
-    full:()=>{
-        return person.fn + ' ' + person.ln
-    }
-}
-console.log(person.full())
+////let person={
+  //  fn:'Dani',
+    //ln:'A',
+    //full:()=>{
+      //  return person.fn + ' ' + person.ln
+    //}
+//}
+//console.log(person.full())
+const numbers=[1,2,3,4,5]
+const sn=numbers.map((numbers)=> numbers * numbers)
+console.log(sn)
